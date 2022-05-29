@@ -20,7 +20,7 @@ function take_snapshot(){
     });
 }
 console.log('m15 version:', ml5.version);
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/ItMUnsLrl/model.json', modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/RciZyJGbi/model.json', modelLoaded);
 
 function modelLoaded(){
     console.log("model Loaded");
